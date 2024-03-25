@@ -1,7 +1,7 @@
 # backend-rooms
 
 ## Description
-For this challenge I was to finish writing the backend code for an e-commerce site. I then connected my server to insomnia where I performed tests on the "TAG", "PRODUCT", and "CATEGORY" routes. After testing my routes I was then able to creat, update, and delete data in my database. I did run into some issues with insomnia and getting a "WRONG ROUTE" error. I troubleshooted with some peers to help me fix these errors which were thankfully, just simple syntax errors.
+For this challenge I was to finish writing the backend code for an e-commerce site. I then connected my server to insomnia where I performed tests on the ``TAG``, ``PRODUCT``, and ``CATEGORY`` routes. After testing my routes I was then able to creat, update, and delete data in my database. I did run into some issues with insomnia and getting a "WRONG ROUTE" error. I troubleshooted with some peers to help me fix these errors which were thankfully, just simple syntax errors.
 
 
 
