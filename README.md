@@ -7,8 +7,15 @@ For this challenge I was to finish writing the backend code for an e-commerce si
 
 ## Usage
 This application allows  the user to create, delete, and update data in an e-commerce backend using Insomnia. 
+
 ## Installation
 Run ``node server.js`` to start the server so that it is able to be run on Insomnia. 
+
+
+
+https://github.com/emilyshea94/backend-rooms/assets/144382382/5ef580d5-3d5f-41c5-890d-604cf1297f70
+
+
 
 
 
