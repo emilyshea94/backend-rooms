@@ -16,8 +16,7 @@ Run ``node server.js`` to start the server so that it is able to be run on Insom
 https://github.com/emilyshea94/backend-rooms/assets/144382382/5ef580d5-3d5f-41c5-890d-604cf1297f70
 
 
-
-
+( i ran out of free screeencastify videos so i had to use another screenshotting extension)
 
 
 
