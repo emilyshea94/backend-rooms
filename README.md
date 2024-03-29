@@ -2,15 +2,22 @@
 
 ## Description
 For this challenge I was to finish writing the backend code for an e-commerce site. I then connected my server to insomnia where I performed tests on the ``TAG``, ``PRODUCT``, and ``CATEGORY`` routes. After testing my routes I was then able to creat, update, and delete data in my database. I did run into some issues with insomnia and getting a "WRONG ROUTE" error. I troubleshooted with some peers to help me fix these errors which were thankfully, just simple syntax errors.
+https://github.com/emilyshea94/backend-rooms
 
 
 
 ## Usage
 This application allows  the user to create, delete, and update data in an e-commerce backend using Insomnia. 
+
 ## Installation
 Run ``node server.js`` to start the server so that it is able to be run on Insomnia. 
 
 
+
+https://github.com/emilyshea94/backend-rooms/assets/144382382/5ef580d5-3d5f-41c5-890d-604cf1297f70
+
+
+( i ran out of free screeencastify videos so i had to use another screenshotting extension)
 
 
 
