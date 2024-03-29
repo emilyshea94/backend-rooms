@@ -29,8 +29,8 @@ router.get('/', async (req, res) => {
 
 router.get('/:id', async (req, res) => {
   try {
-    const newTag = await Tag.create(req.body);
-    res.status(201).json(newTag);
+    const newTag = await Tag.findByPk(req.params.id);
+    res.status(200).json(newTag);
   } catch (error) {
     res.status(500).json(error);
   }
@@ -38,13 +38,18 @@ router.get('/:id', async (req, res) => {
 
 router.post('/', async (req, res) => {
   try {
-    const tag = await Tag.findByPk(req.params.id);
-    if (!tag) {
-      res.status(404).json({ message: 'Tag not found' });
+    const tag = await Tag.findOne ({
+      where: {
+        tag_name: req.body.tag_name
+      }
+
+    });
+    if (tag) {
+      res.status(400).json({ message: 'Tag already exists' });
       return;
     }
-    await tag.update(req.body);
-    res.status(200).json(tag);
+    await Tag.create(req.body);
+    res.status(200).send("Tag created");
   } catch (error) {
     res.status(500).json(error);
   }
@@ -57,7 +62,7 @@ router.put('/:id', async (req, res) => {
       res.status(404).json({ message: 'Tag not found' });
       return;
     }
-    await tag.destroy();
+    await tag.changed();
     res.status(204).end();
   } catch (error) {
     res.status(500).json(error);
